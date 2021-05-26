@@ -1,6 +1,6 @@
 import dimscord, asyncdispatch, times, options, dimscmd
 
-let discord = newDiscordClient("MjMzODU4NDk5MDQ0NDQyMTEy.V_dTsw.fWpY-lFuSD-rgMby4yoJanY77Lg")
+let discord = newDiscordClient("<token>")
 var cmd = discord.newHandler()
 
 # Handle event for on_ready.
